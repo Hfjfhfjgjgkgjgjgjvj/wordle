@@ -20,7 +20,7 @@ const app = Vue.createApp({
             characters: characters,
             config: config,
             right_to_left: config.right_to_left == "true",
-            allow_any_word: false,
+            allow_any_word: true,
 
 
             showHelpModal: false,
